@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alyah’s Fashion Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">Alyah’s Fashion Hub</div>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+
+        <li class="dropdown">
+            <a href="#">Payment ▾</a>
+            <div class="dropdown-content">
+                <p>M-Pesa: 0748 863 304</p>
+                <p>Airtel: 0694 339 402</p>
+                <p>Voda Lipa: 59996557</p>
+                <p>CRDB: 0152988051600</p>
+                <p>NMB: 21810033532</p>
+            </div>
+        </li>
+
+        <li class="dropdown">
+            <a href="#">Contact ▾</a>
+            <div class="dropdown-content">
+                <p>Voda: 0748 863 304</p>
+                <p>Airtel: 0694 339 402</p>
+                <p>WhatsApp: 0748 863 304</p>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<!-- HEADER -->
+<header id="home">
+    <h1>Alyah’s Fashion Hub</h1>
+    <p class="tagline">Elegant Fashion • Modern Women Wear</p>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Elegant Fashion for Every Woman</h2>
+    <p>Order directly via WhatsApp anywhere in Tanzania</p>
+    <a class="btn" href="https://wa.me/255748863304" target="_blank">
+        Order via WhatsApp
+    </a>
+    <p class="delivery">🚚 On-Time Delivery Anywhere in Tanzania</p>
+</section>
+
+<!-- SHOP -->
+<section class="shop" id="shop">
+    <h2>Our Products</h2>
+
+    <!-- PRODUCTS RENDERED BY script.js -->
+    <div class="products" id="products"></div>
+</section>
+
+<!-- FULLSCREEN VIEWER -->
+<div id="viewer" class="viewer hidden">
+    <span class="close" onclick="closeViewer()">✕</span>
+    <img id="viewerImage">
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>
+        Can’t find what you are looking for?<br>
+        <strong>Send a special request</strong>
+    </p>
+
+    <a class="whatsapp-footer"
+       href="https://wa.me/255748863304?text=Hello%20Alyah’s%20Fashion%20Hub,%20I%20have%20a%20special%20order%20request."
+       target="_blank">
+        <img src="images/whatsapp.png" alt="WhatsApp">
+        Send via WhatsApp
+    </a>
+</footer>
+
+<!-- SCRIPT -->
+<script src="script.js"></script>
+</body>
+</html>
