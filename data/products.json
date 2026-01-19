@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Elegant Dress",
+    "price": 45000,
+    "category": "Dresses",
+    "image": "https://via.placeholder.com/400x500?text=Dress"
+  },
+  {
+    "id": 2,
+    "name": "Stylish Heels",
+    "price": 38000,
+    "category": "Shoes",
+    "image": "https://via.placeholder.com/400x500?text=Shoes"
+  }
+]
